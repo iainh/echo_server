@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Iain Heggie <iain.heggie@gmail.com>"]
 
 [dependencies]
-futures = "*"
-tokio-core = "*"
-tokio-io = "*"
+futures = "0.1"
+tokio-core = "0.1"
+tokio-io = "0.1"
