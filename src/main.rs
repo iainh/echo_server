@@ -17,7 +17,7 @@ fn main() {
     let server = tcp.incoming().for_each(|(tcp, _)| {
         let (reader, writer) = tcp.split();
 
-        let bytes_copied  = io::copy(reader, writer);
+        let bytes_copied = io::copy(reader, writer);
 
         let handle_conn = bytes_copied.map(|(n, _, _)| {
             println!("wrote {} bytes", n)

@@ -1,2 +1,5 @@
 /target/
 **/*.rs.bk
+.idea/inspectionProfiles/
+.idea/workspace.xml
+Cargo.lock
